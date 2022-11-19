@@ -1,6 +1,5 @@
-* {
-    margin: 0 auto;
-}
+@import url(./reset.css);
+
 
 body {
     background-color: rgba(6, 105, 151, 0.658);
@@ -31,4 +30,8 @@ ul>li {
     margin: 2em;
     box-shadow: 0 0 0.5em #000a;
     text-align: center;
+}
+
+ul>li>a {
+    color: #000000;
 }
